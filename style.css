@@ -1,0 +1,4 @@
+body {
+    background-image: url(img/back.jpg);
+    backdrop-filter: blur(50px);
+}
