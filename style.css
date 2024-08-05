@@ -2,6 +2,7 @@ body {
     background-image: url(img/back.jpg);
     backdrop-filter: blur(50px);
     border-radius: 15px;
+    width: 97vw;
 }
 #search-form {
     display: flex;
