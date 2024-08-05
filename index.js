@@ -1,6 +1,6 @@
 document.getElementById("search-submit").addEventListener("click", function () {
         var searchInput = document.getElementById("search-input").value;
-        window.location.href = "https://www.google.com/search?q=" + searchInput;
+        window.location.href = document.getElementById("search-engine-selector").value + searchInput;
 });
 document.getElementById("search-input").addEventListener('keydown', (event) => {
         if (event.key === 'Enter') {

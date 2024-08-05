@@ -44,3 +44,16 @@ body {
     border-radius: 5px;
     cursor: pointer;
 }
+select {
+    padding: 10px;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(60px);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-right: 10px;
+}
+select option {
+    color: black;
+}
